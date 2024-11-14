@@ -1,0 +1,31 @@
+1. Zrobić strone/szkielet gry
+2. CSS
+3. Zrobić baze
+4. Strona pobiera losowe słowo z bazy
+5. sprawdza pozycje i poprawnosc liter w słowie
+
+*Dodac klawiature na strone zeby można było klikac myszką
+*Przyciski restart,replay,save,ranking.
+
+
+JAK:
+
+1. 
+ -ASP.NET 
+ -HTML 
+2.
+ -CSS do udoskonalenia strony
+3.
+ -JSON
+ -.txt
+ -MySQL
+4. 
+ -Przypisać ID do każdego słowa i potem klasa/funckja random(1:liczba_słow)
+
+5. 
+ -Czy ma takie litery: 
+	Kazdy wyraz zamienic na ciąg znaków IEnumerable<string> i sprawdzać za pomocą contain ?
+ -Czy są na dobrym miejscu:
+ 	Pętla która sprawdza każda litere wpisane_slowo == wylosowane_slowo
+
+
