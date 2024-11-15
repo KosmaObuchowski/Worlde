@@ -3,26 +3,6 @@
 Co oferuje projekt?
 Wordle to gra słowna, w której celem jest odgadnięcie pięcioliterowego słowa w maksymalnie sześciu próbach. Po każdej próbie gra udziela wskazówek, zmieniając kolory liter: zielony oznacza, że litera znajduje się w słowie i jest na właściwym miejscu, żółty wskazuje, że litera występuje w słowie, ale na innym miejscu, a szary informuje, że litery nie ma w słowie. Po zakończonej rozgrywce gracz może zobaczyć wyświetlone podsumowanie rozgrywki.
 
-Wymagania niefunkcjonalne:
-Szybki czas odpowiedzi na wpisane słowa.
-Bezpieczeństwo
-
-Uwierzytelnianie dwuskładnikowe.
-Szyfrowanie SSL/TLS.
-Zgodność z RODO.
-Skalowalność
-
-Możliwość dodawania serwerów (skalowalność horyzontalna).
-Gotowość do pracy w chmurze.
-Utrzymanie
-
-Aktualizacje bez przerywania pracy.
-Monitoring i alerty błędów.
-Dostępność
-
-Czas dostępności na poziomie 99,9%.
-Obsługa urządzeń desktop i mobilnych.
-
 Wymagania funkcjonalne:
 
 1. Odgadywanie słowa w określonej liczbie prób (np. 6).
@@ -63,6 +43,20 @@ Wykorzystane technologie i języki:
 - CSS
 - JavaScript
 - JSON
+
+Potencjalne ryzyka: 
+-Problemy z wydajnościa aplikacji
+-Problemy z połączeniem bazy danych
+-Problem z bezpieczeństwem strony
+
+Lista ogólnych zadań do wykonania:
+-Przygotowanie strony HTML
+-Przygotowanie stylów css
+-Programowanie skryptu JavaScript
+-Zbudowanie oraz podłączenie bazy danych
+-Dodanie klawiatury na stronie
+-Responsywność
+-Testy działania i optymalizacji
 
 Użyte biblioteki:
 - JavaScript Event Library
