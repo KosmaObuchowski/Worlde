@@ -45,18 +45,18 @@ Wykorzystane technologie i języki:
 - JSON
 
 Potencjalne ryzyka: 
--Problemy z wydajnościa aplikacji
--Problemy z połączeniem bazy danych
--Problem z bezpieczeństwem strony
+- Problemy z wydajnościa aplikacji
+- Problemy z połączeniem bazy danych
+- Problem z bezpieczeństwem strony
 
 Lista ogólnych zadań do wykonania:
--Przygotowanie strony HTML
--Przygotowanie stylów css
--Programowanie skryptu JavaScript
--Zbudowanie oraz podłączenie bazy danych
--Dodanie klawiatury na stronie
--Responsywność
--Testy działania i optymalizacji
+- Przygotowanie strony HTML
+- Przygotowanie stylów css
+- Programowanie skryptu JavaScript
+- Zbudowanie oraz podłączenie bazy danych
+- Dodanie klawiatury na stronie
+- Responsywność
+- Testy działania i optymalizacji
 
 Użyte biblioteki:
 - JavaScript Event Library
