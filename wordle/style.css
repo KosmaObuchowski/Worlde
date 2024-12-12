@@ -1,0 +1,73 @@
+/* Reset and basic styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121213;
+  color: #ffffff;
+}
+
+header {
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* Game Board */
+#board {
+  margin: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+#board div {
+  /*margin: 0 5px;*/
+  width: 60px;
+  height: 60px;
+  border: 2px solid #3a3a3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-color: #121213;
+  color: #ffffff;
+}
+
+/* Keyboard */
+#keyboard {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 5px;
+}
+
+#keyboard button {
+  padding: 10px;
+  border: none;
+  background-color: #818384;
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#keyboard button.correct {
+  background-color: #538d4e; /* Green */
+}
+
+#keyboard button.present {
+  background-color: #b59f3b; /* Yellow */
+}
+
+#keyboard button.absent {
+  background-color: #3a3a3c; /* Gray */
+}
