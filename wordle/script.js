@@ -23,14 +23,6 @@ function createKeyboard() {
   });
 }
 
-// Initialize the game
-function initGame() {
-  createBoard();
-  createKeyboard();
-}
-
-initGame();
-
 // Load words from JSON
  fetch('words.json')
    .then(response => response.json())
