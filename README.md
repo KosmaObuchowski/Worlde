@@ -62,7 +62,7 @@ Użyte biblioteki:
 - JavaScript Event Library
 - JavaScript Math library
 
-Proces imstalacji:
+Proces instalacji:
 Uruchomienie pliku HTML oraz posiadanie bazy danych słów.
 
 Licencja:
