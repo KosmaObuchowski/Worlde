@@ -60,14 +60,53 @@ h1 {
   user-select: none;
 }
 
-#keyboard button.correct {
-  background-color: #538d4e; /* Green */
+/* Correct letter and position */
+#board .tile.correct {
+  background-color: #6aaa64 !important; /* Green */
+  color: white;
 }
 
-#keyboard button.present {
-  background-color: #b59f3b; /* Yellow */
+/* Correct letter, wrong position */
+#board .tile.present {
+  background-color: #c9b458 !important; /* Yellow */
+  color: white;
 }
 
-#keyboard button.absent {
-  background-color: #3a3a3c; /* Gray */
+/* Letter not in the word */
+#board .tile.absent {
+  background-color: #787c7e !important; /* Gray */
+  color: white;
+}
+
+/* Default tile style */
+.tile {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d3d3d3;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  margin: 2px;
+  color: #000;
+}
+/* Correct letter and position */
+.correct {
+  background-color: #6aaa64; /* Green */
+  color: white;
+}
+
+/* Correct letter, wrong position */
+.present {
+  background-color: #c9b458; /* Yellow */
+  color: white;
+}
+
+/* Letter not in the word */
+.absent {
+  background-color: #787c7e; /* Gray */
+  color: white;
 }
