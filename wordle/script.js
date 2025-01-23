@@ -5,8 +5,7 @@ let currentGuess = "";
 let currentRow = 0;
 let currentTile = 0;
 let answer = "";
-
-// Hardcoded word list (replace * with the actual word list)
+// List of words 
 let words = [
   "about", "above", "actor", "apple", "alert", "album", "alter", "angle", "arena",
   "arrow", "basic", "beach", "begin", "black", "block", "board", "brain", "brand",
@@ -53,7 +52,7 @@ let words = [
 // Select a random word as the answer
 answer = words[Math.floor(Math.random() * words.length)];
 console.log("Word list loaded, total words:", words.length);
-console.log("Answer:", answer); // For debugging
+console.log("Answer:", answer); 
 initGame(); // Initialize the game
 
 // Create the game board
@@ -107,7 +106,7 @@ function updateTile(row, col, letter) {
   const tile = document.querySelector(`[data-row="${row}"][data-col="${col}"]`);
   tile.textContent = letter;
 }
-
+// Submiting Guesses
 function submitGuess() {
   if (currentGuess.length < 5) {
     alert("Not enough letters!");
@@ -138,7 +137,6 @@ guessLetters.forEach((letter, index) => {
     colorFeedback[index] = "correct";  // Mark as correct if the letter matches at the correct position
     answerLetters[index] = null; // Remove letter from answer to prevent it from being reused
   }
-  // We don't need to apply class here yet, only in the next loop
 });
   // Second pass: check for correct letters in incorrect positions
 guessLetters.forEach((letter, index) => {
@@ -152,7 +150,6 @@ guessLetters.forEach((letter, index) => {
 // Apply colors to tiles (update only the board)
 guessLetters.forEach((letter, index) => {
   const tile = document.querySelector(`[data-row="${currentRow}"][data-col="${index}"]`);
-  // Update the tile with the appropriate color class
   tile.classList.add(colorFeedback[index]); // Add the appropriate class to each tile
 });
 
